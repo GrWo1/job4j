@@ -14,13 +14,11 @@ public class Slash {
                     right = true;
                 } // добавить условие, что нужно ставить элемент в правый угол.
 
-                    if (left == true) {
+                if (left || right) {
                         System.out.print("0");
-                    } else if (right == true) {
-                        System.out.print("0");
-                    } else {
+                } else {
                         System.out.print(" ");
-                    }
+                }
                 }
                 System.out.println();
             }
